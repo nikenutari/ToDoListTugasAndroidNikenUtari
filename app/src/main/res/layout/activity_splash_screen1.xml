@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen1Activity"
+    android:background="@color/primary">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/gambarsatu" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:layout_centerHorizontal="true"
+        android:text="Activity Controller"
+        android:textColor="@color/secondary"
+        android:textSize="15sp"
+        android:fontFamily="@font/hsatu"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/textsatu"
+        android:paddingTop="20dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="The Best Application To Organize Your Activities To Be More Organized"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="13sp" />
+
+</RelativeLayout>

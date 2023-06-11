@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#393027</color>
+    <color name="secondary">#FFFFFF</color>
+    <color name="teks">#000000</color>
+    <color name="bg1">#FFFFFF</color>
+    <color name="bg2">#FEFEFE</color>
+    <color name="light">#E4E4E4</color>
+    <color name="light2">#666666</color>
+    <color name="lightactive">#D8CFC6</color>
+    <color name="darker">#393027</color>
+</resources>

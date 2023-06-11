@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonnn"
+        android:fontFamily="@font/button"
+        android:text="Back"
+        android:textColor="@color/secondary" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_back"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/gambartiga"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:text="Welcome back,"
+        android:textColor="@color/teks"
+        android:textSize="30sp"
+        android:fontFamily="@font/hsatu"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:paddingRight="175dp"
+        android:text="Log In!"
+        android:textColor="@color/teks"
+        android:textSize="20sp"
+        android:fontFamily="@font/textsatu"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="50dp"
+        android:text="Username/Email"
+        android:textColor="@color/teks"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular" />
+
+    <EditText
+        android:id="@+id/usernameee"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/kolom"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Username/Email"
+        android:paddingLeft="20dp"
+        android:textColor="@color/secondary" />
+
+    <TextView
+        android:id="@+id/passworddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameee"
+        android:layout_marginLeft="50dp"
+        android:text="Password"
+        android:textColor="@color/teks"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular" />
+
+    <EditText
+        android:id="@+id/passssword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/kolom"
+        android:layout_below="@id/passworddd"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/passssword"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonnn"
+        android:fontFamily="@font/button"
+        android:text="Login"
+        android:textColor="@color/secondary"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+
+</RelativeLayout>
